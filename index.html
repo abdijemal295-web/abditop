@@ -1,50 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abdi Top | Portfolio</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#0f172a;color:#fff}
-.hero{padding:60px 20px;text-align:center;background:linear-gradient(135deg,#0f172a,#1e3a8a)}
-.hero h1{margin:0;color:#38bdf8;font-size:42px}
-.container{max-width:900px;margin:auto;padding:24px}
-.card{background:#1e293b;padding:20px;border-radius:16px;margin:18px 0}
-h2{color:#38bdf8}
-.btn{display:inline-block;background:#38bdf8;color:#000;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:bold}
-footer{text-align:center;padding:30px;color:#94a3b8}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdi Jemal | Personal Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111827, #374151);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 650px;
+      text-align: center;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 24px;
+      padding: 40px 25px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+      backdrop-filter: blur(10px);
+    }
+    h1 { margin: 0 0 10px; font-size: 38px; }
+    .subtitle { color: #d1d5db; margin-bottom: 30px; }
+    .contact {
+      margin: 14px 0;
+      font-size: 17px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 28px;
+    }
+    a {
+      display: block;
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.12);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    a:hover { background: rgba(255,255,255,0.22); transform: translateY(-2px); }
+    footer { margin-top: 30px; color: #9ca3af; font-size: 13px; }
+  </style>
 </head>
 <body>
-<section class="hero">
-<h1>Abdi Top</h1>
-<p>Animal Health Professional (Level 4)</p>
-<a class="btn" href="#contact">Contact Me</a>
-</section>
+  <main class="card">
+    <h1>Abdi Jemal</h1>
+    <div class="subtitle">Personal Portfolio &amp; Contact</div>
 
-<div class="container">
-<div class="card">
-<h2>About Me</h2>
-<p>Welcome to my personal portfolio website. I am an Animal Health Professional (Level 4) with an interest in livestock health, vaccination and disease prevention.</p>
-</div>
+    <div class="contact">📧 <strong>Email:</strong> <a href="mailto:Abdijemal295@gmail.com">Abdijemal295@gmail.com</a></div>
+    <div class="contact">📞 <strong>Phone:</strong> <a href="tel:+251920539638">092 053 9638</a></div>
 
-<div class="card">
-<h2>Skills</h2>
-<ul>
-<li>Animal Treatment</li>
-<li>Vaccination</li>
-<li>Disease Prevention</li>
-<li>Laboratory Basics</li>
-</ul>
-</div>
+    <div class="links">
+      <a href="https://www.facebook.com/@abditop1" target="_blank" rel="noopener noreferrer">🔵 Facebook</a>
+      <a href="https://www.instagram.com/@abditop1" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+    </div>
 
-<div class="card" id="contact">
-<h2>Contact</h2>
-<p>Phone: +251920539638</p>
-<p>Email: Abdijemal295@gmail.com</p>
-</div>
-</div>
-
-<footer>© 2026 Abdi Top</footer>
+    <footer>© 2026 Abdi Jemal. All rights reserved.</footer>
+  </main>
 </body>
 </html>
