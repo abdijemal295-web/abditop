@@ -1,73 +1,217 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abdi Jemal | Personal Portfolio</title>
+
+  <title>Abdi Salii | Animal Health Professional</title>
+
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #111827, #374151);
-      color: white;
       min-height: 100vh;
+      background: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 900px;
+      background: #202020;
+      border: 2px solid #3a3a3a;
+      border-radius: 35px;
+      padding: 45px;
+    }
+
+    .profile {
+      text-align: center;
+    }
+
+    .profile-icon {
+      width: 80px;
+      height: 80px;
+      border: 4px solid #914cff;
+      border-radius: 50%;
+      margin: auto;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+      font-size: 42px;
+      color: #914cff;
     }
-    .card {
-      width: 100%;
-      max-width: 650px;
-      text-align: center;
-      background: rgba(255,255,255,0.10);
-      border: 1px solid rgba(255,255,255,0.18);
-      border-radius: 24px;
-      padding: 40px 25px;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
-      backdrop-filter: blur(10px);
+
+    h1 {
+      font-size: 42px;
+      margin: 20px 0 10px;
     }
-    h1 { margin: 0 0 10px; font-size: 38px; }
-    .subtitle { color: #d1d5db; margin-bottom: 30px; }
-    .contact {
-      margin: 14px 0;
-      font-size: 17px;
+
+    .title {
+      font-size: 26px;
+      margin-bottom: 40px;
     }
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      margin-top: 28px;
+
+    .line {
+      height: 3px;
+      background: #3b3b3b;
+      margin-bottom: 40px;
     }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 22px;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .icon {
+      color: #914cff;
+      margin-right: 10px;
+    }
+
     a {
       display: block;
-      padding: 14px 18px;
-      border-radius: 12px;
-      background: rgba(255,255,255,0.12);
-      color: white;
+      color: #b06cff;
       text-decoration: none;
-      font-weight: bold;
-      transition: 0.2s;
+      font-size: 21px;
+      margin-top: 12px;
+      word-break: break-word;
     }
-    a:hover { background: rgba(255,255,255,0.22); transform: translateY(-2px); }
-    footer { margin-top: 30px; color: #9ca3af; font-size: 13px; }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 30px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+
+      .section h2 {
+        font-size: 20px;
+      }
+
+      .section p,
+      a {
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <main class="card">
-    <h1>Abdi Jemal</h1>
-    <div class="subtitle">Personal Portfolio &amp; Contact</div>
 
-    <div class="contact">📧 <strong>Email:</strong> <a href="mailto:Abdijemal295@gmail.com">Abdijemal295@gmail.com</a></div>
-    <div class="contact">📞 <strong>Phone:</strong> <a href="tel:+251920539638">092 053 9638</a></div>
+  <div class="card">
 
-    <div class="links">
-      <a href="https://www.facebook.com/@topabdi1" target="_blank" rel="noopener noreferrer">🔵 Facebook</a>
-      <a href="https://www.instagram.com/@topabdi1" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+    <div class="profile">
+
+      <div class="profile-icon">
+        👤
+      </div>
+
+      <h1>Abdi Salii</h1>
+
+      <div class="title">
+        Animal Health Professional (Level 4)
+      </div>
+
     </div>
 
-    <footer>© 2026 Abdi Jemal. All rights reserved.</footer>
-  </main>
+    <div class="line"></div>
+
+    <div class="section">
+      <h2>
+        <span class="icon">🎓</span>
+        Education
+      </h2>
+
+      <p>
+        Animal Health Level 4
+      </p>
+    </div>
+
+
+    <div class="section">
+      <h2>
+        <span class="icon">💼</span>
+        Experience
+      </h2>
+
+      <p>
+        Animal treatment, vaccination, disease prevention
+      </p>
+    </div>
+
+
+    <div class="section">
+      <h2>
+        <span class="icon">✓</span>
+        Skills
+      </h2>
+
+      <p>
+        Livestock health, laboratory basics, field work
+      </p>
+    </div>
+
+
+    <div class="section">
+      <h2>
+        <span class="icon">✉</span>
+        Contact
+      </h2>
+
+      <p>📧 Abdijemal295@gmail.com</p>
+      <p>📱 092 053 9638</p>
+    </div>
+
+
+    <div class="section">
+
+      <h2>
+        <span class="icon">🔗</span>
+        Social Media
+      </h2>
+
+      <a href="https://www.facebook.com/topabdi1"
+         target="_blank">
+        Facebook — @topabdi1
+      </a>
+
+      <a href="https://www.instagram.com/@topabdi1"
+         target="_blank">
+        Instagram — @topabdi1
+      </a>
+
+    </div>
+
+  </div>
+
 </body>
 </html>
